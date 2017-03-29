@@ -1,0 +1,458 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ebeef4;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464032;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #A42903;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a{
+	text-decoration: none;
+	color: #444 ;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 940px;
+	height: 148px;
+	margin: 0 auto;
+
+}
+#log{
+	position: absolute;
+	top: 80px;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Montserrat';
+	width: 180px;
+	height: 40px;
+	padding-top: 10px;
+
+}
+#log:hover
+{
+	background-color: rgba(95, 119, 173,0.9);
+	color :white;
+	border-radius: 20px;
+-webkit-transition: background 0.3s ease-in-out;
+-moz-transition: background 0.3s ease-in-out;
+-ms-transition: background 0.3s ease-in-out;
+-o-transition: background 0.3s ease-in-out;
+transition: background 0.3s ease-in-out;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 60px;
+	margin: 0;
+	padding-top: 50px;
+	display: inline;
+}
+#logo img
+{	float : left;	
+	size:	320px 120px;
+
+	height: 100px;
+	 }
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	font-family: 'Russo One', sans-serif;
+	padding-left: 10px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.3em;
+	
+}
+/*--Centre Regional D'investissement*/
+#logo p {
+	margin: 0;
+
+	padding: 26px 10px;
+	padding-left: 5px;
+	font: normal 12px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #5E4E38;
+
+} 
+
+#logo p a {
+	color: rgba(95, 119, 173,0.9);
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: rgba(95, 119, 173,0.9);;
+}
+
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 36px;
+	margin: 0 auto;
+	padding: 0;
+	background: no-repeat left top;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#logout
+{
+	float: right;
+	margin-bottom: 10px;
+	padding: 10px 20px 0px 20px;
+	height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: rgba(95, 119, 173,0.9);
+	border: none;
+}
+
+#menu li a {
+	display: block;
+	height: 26px;
+	margin-bottom: 10px;
+	padding: 10px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: rgba(95, 119, 173,0.9);
+	border: none;
+}
+#menu a #log{	float: right;
+				margin-left: 70px;	}
+
+#menu a:hover, #menu .current_page_item a {
+	background:  rgba(95, 119, 173,0.9);
+	color: white;
+	text-decoration: none;
+	border-radius: 7px;
+	-webkit-transition: all 0.5s ease-in;
+-moz-transition: all 0.5s ease-in;
+-ms-transition: all 0.5s ease-in;
+-o-transition: all 0.5s ease-in;
+transition: all 0.5s ease-in;
+}
+
+#menu .current_page_item a {
+	background: rgba(95, 119, 173,0.9);
+	color: white;
+	border-radius: 7px;
+}
+
+
+#form h1
+{
+	color: black;
+	font-family: 'Russo One', sans-serif;
+	
+}
+#form a
+{
+	
+	position: absolute;
+	top: 350px;
+	border: 0px solid black;
+	text-decoration: underline;
+}
+#inputext
+{
+	display: block;
+
+	margin-top: 10px;
+	height: 33px;
+	width: 270px;
+	border: solid 1px black;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+#inputbutt
+{
+	display: block;
+	margin-top: 35px;
+	height: 40px;
+	width: 270px;
+	border: solid 1px black;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+#inputbutt :hover
+{
+	background: #48D1CC;
+}
+
+
+/*recherche */
+#rech{
+	
+	background-color: rgba(230,230,250,0.8);
+	padding:50px 50px 30px;
+	margin:80px 0;
+	position:relative;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:  solid 3px;
+	border-color: rgba(95, 119, 173,0.9);
+	
+}
+#page{
+	width:660px;
+	margin:100px auto;
+}
+#s{
+	
+	border:none;
+	color:#888888;
+	background:url("images/searchBox.png") no-repeat;
+	
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	height:36px;
+	line-height:36px;
+	margin-right:12px;
+	outline:medium none;
+	padding:0 0 0 35px;
+	text-shadow:1px 1px 0 white;
+	width:385px;
+}
+#butt
+{
+	border: solid 1px black;
+	height: 36px;
+	border-radius: 12px;
+}
+
+
+
+
+#total
+{
+	text-align: right;
+}
+
+
+#first
+{
+	float: right;
+	color: gray;
+}
+
+#admin
+{
+	border-radius: 7px;
+	width: 720px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;	
+}
+#bigadmin a
+{
+	padding: 10px;
+}
+#bigadmin a:hover
+{
+	background:  rgba(95, 119, 173,0.9);
+	color: white;
+	text-decoration: none;
+	border-radius: 7px;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.5s ease;
+	-ms-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
+}
+#bigadmin
+{
+	border: none;
+	border-radius: 7px;
+	width: 650px;
+	background-color: white;
+	margin: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#bigadmin li
+{
+	list-style: none;
+	padding: 7px;
+	margin: 17px;
+}
+#bigadmin img
+{
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+}
+
+#infoPerso p
+{
+	margin: 15px;
+}
+#infoPerso
+{
+	padding: 27px;
+	border-radius: 7px;
+	width: 640px;
+	background-color: white;
+
+}
+#infoPerso td
+{
+	padding: 7px;
+	text-align: center;
+}
+#infoPerso table
+{
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 12px;
+	margin-left: 130px;
+	margin-top: 20px;
+}
+
+/*ajouter un admin*/
+#ajouter
+{
+	padding: 17px;
+}
+label
+{
+	margin: 0px 17px;
+}
+textarea
+{
+	display: block;
+	margin: 5px 17px;
+	border-radius: 7px;
+	width: 360px;
+	border: 1px solid black;
+	height: 100px;
+	padding: 20px;
+
+}
+#ajouter input
+{
+	display: block;
+	margin: 5px 17px;
+	width: 220px;
+	height: 32px;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+#button
+{
+	display: inline;
+	margin: 25px;
+	width: 150px;
+	height: 40px;
+	background-color: #297ACC;
+	border-radius: 7px;
+	font-color : white;
+}
+#cmd input
+{
+	font-size: 18px;
+	width: 320px;
+	padding: 10px;
+	height: 40px;
+	margin: 20px;
+	border: 2px solid gold;
+	border-radius: 10px;
+}
+
+#valider
+{
+	height: 50px;
+}
+#vigs input
+{
+	border: 2px solid gold;
+	border-radius: 10px;
+	width: 50px;
+	height: 30px;
+	margin: 40px;
+}
+#nxt input
+{
+	width: 220px;
+}
+#pass input
+{
+	width: 500px;
+}
